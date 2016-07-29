@@ -1,0 +1,179 @@
+body{
+	background-color:cyan;
+}
+
+#header{
+	width:100%;
+	height:auto;
+	position:fixed;
+	top:0px;
+	left:0px;
+	font-size:30px;
+}
+#footer{
+	width:100%;
+	height:60px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	font-size:20px;
+	background-color:#141619;
+	text-align: center;
+	font-weight: 300;
+    color: aliceblue;
+}
+
+li{
+	float:right;
+
+}
+#pr{
+	float:left;
+	font-family: tahoma;
+
+}
+#icon{
+	float:center;
+	text-align:center;
+	margin-top: 10%;
+}
+#aicon{
+	float:center;
+	text-align:center;
+	margin-top: 5%;
+}
+li a{
+	display:block;
+	padding:14px 16px;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#113;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#2e3a46;
+}
+a{
+    display:block;
+	padding:14px 16px;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+a:hover{
+	background-color:#113;
+}
+a:visited{
+		background-color:#333;
+}
+#button1{
+	background-color:#008080;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:30px;
+	float:center;
+	cursor:pointer;
+	border-radius:10px;
+	margin-top: 5%;
+	margin-left: 43%;
+	box-shadow: 1px 1px #000;
+	font-family: tahoma;
+}
+
+#alogin{
+	width: 450px;
+	height:300px;
+	background-color: #B0C4DE;
+  margin-top: 0%;
+	margin-left: 33%;
+
+}
+form{
+	border:2px solid #1ba6c3;
+	width: 500px;
+	height: 588px;
+	margin-top: 5.8%;
+	margin-left: 31%;
+	background-color: #f8f8f8;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 12px 20px;
+	margin:8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button{
+	background-color: #3CBC8D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10PX;
+	font-size: 15px;
+}
+.cancelbtn{
+	width: 100%;
+    padding: 10px 25px;
+    background-color: #f44336;
+    margin-top: 3%;
+    height: 50px;
+}
+.imgcontainer{
+	text-align: center;
+	margin: 24px 0 12px 0;
+
+}
+img.admin{
+	width: 40%;
+	border-radius: 50%;
+}
+.container{
+	padding: 7px;
+	background-color: lightblue;
+}
+span.psw{
+	float: right;
+	padding-top: 16px;
+}
+/*change styles for span and cancel button on extra small screens*/
+@media screen and(max-width:300px) {
+	span.psw{
+		display: block;
+		float: none;
+	}
+	.cancelbtn{
+		width: 100%;
+	}
+}
+label{
+	font-family: tahoma;
+}
+#admin:visited{
+	background-color: #20B2AA;
+}
+#uicon{
+	margin-top: 6%;
+	margin-left: 38%;
+}
+#opt{
+	text-align: center;
+    background-color: #4a061a;
+    border-radius: 10px;
+    color: azure;
+		height: 40px;
+		margin-top: 5%;
+}
